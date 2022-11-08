@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    
+    font-size: 4rem;
+    animation-name: animar;
+    animation-duration: 2.0s;
+    animation-iteration-count: infinite;
+}
+@keyframes animar {
+    10% {
+  
+      color: red;
+      filter: drop-shadow(1px 1px 10px orangered);
+     
+    }
+  
+    20% {
+     
+      color: purple;
+      filter: drop-shadow(1px 1px 10px purple);
+      
+    }
+
+    20% {
+     
+        color: chartreuse;
+        filter: drop-shadow(1px 1px 10px yellow);
+        
+      }
+  }
